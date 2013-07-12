@@ -23,5 +23,5 @@
 
 # How it fits together
 
-The cluster configuration lives in conf/*.yaml. If you want to change the size of clusters then do it in those files and reconverge `lein pallet converge`
+The cluster configuration lives in conf/*.yaml. If you want to change the size of clusters then do it in those files and reconverge `lein pallet converge cc.iterator.groups.storm/storm-group-spec 1`
 
